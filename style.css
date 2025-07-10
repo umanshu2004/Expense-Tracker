@@ -1,0 +1,69 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f2f5;
+  margin: 0;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+form input, form select, form button, .filters select {
+  width: 100%;
+  padding: 0.6rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.expenses {
+  margin-top: 1rem;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.8rem;
+  background: #fafafa;
+  border-bottom: 1px solid #eee;
+  border-radius: 6px;
+  margin-bottom: 0.5rem;
+}
+
+.expense-actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #007BFF;
+  margin-left: 0.5rem;
+}
+
+.total {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 1rem;
+}
